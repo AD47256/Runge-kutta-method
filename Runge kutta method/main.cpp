@@ -26,7 +26,7 @@ int main () {
     rk3_type stepper3;
     rk4_type stepper4;
     
-    const int steps = 5000;
+    const int steps = 4500;
     const double dt = 0.01;
     lorenz system (10.0 , 28.0, 10.0/3.0);
     state_type x = {10.0, 1.0, 1.0};//initial condition
@@ -36,7 +36,7 @@ int main () {
     lor_out << std::fixed;
     for( size_t n=0 ; n<steps ; ++n ) {
     stepper3.do_step(system , x, n*dt , dt);
-        lor_out << x[0] << ' ' << x[1] << ' ' << x[2] << '\n';
+        lor_out<< x[0] << ' ' << x[1] << ' ' << x[2] << '\n';
     }
         lor_out.close();
 
@@ -47,7 +47,7 @@ int main () {
     lor_out << std::fixed;
     for( size_t n=0 ; n<steps ; ++n ) {
     stepper4.do_step(system , x, n*dt , dt);
-        lor_out << x[0] << ' ' << x[1] << ' ' << x[2] << '\n';
+        lor_out<< x[0] << ' ' << x[1] << ' ' << x[2] << '\n';
     }
         lor_out.close();
 }
