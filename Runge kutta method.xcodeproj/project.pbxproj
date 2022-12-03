@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56A5CE452938AF0000C7833E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56A5CE442938AF0000C7833E /* main.cpp */; };
+		56E33BA9293B1D1800C13466 /* Runge kutta method.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56E33BA8293B1D1800C13466 /* Runge kutta method.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		56A5CE412938AF0000C7833E /* Runge kutta method */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Runge kutta method"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A5CE442938AF0000C7833E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56E33BA8293B1D1800C13466 /* Runge kutta method.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Runge kutta method.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				56A5CE442938AF0000C7833E /* main.cpp */,
+				56E33BA8293B1D1800C13466 /* Runge kutta method.cpp */,
 			);
 			path = "Runge kutta method";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E33BA9293B1D1800C13466 /* Runge kutta method.cpp in Sources */,
 				56A5CE452938AF0000C7833E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
